@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-03-16T23:52:16+00:00
+
+====== Home ======
+Created Saturday 16 March 2024
+
+[[Conexus]] is the outline of a set of realites which form the basis for an online multi-player RPG. The player plays as themself, running one or more "agents" in an alternate reality known as AR02 (Alternate Reality 02). The aims of these operatives are widely varied, depending on the agency involved, but usually involve acquiring knowledge relevant to our own reality or affecting changes to our reality through the "echo effect". The field of Conexus Theory and associated techniques broadly labelled [[Conexus]] mathematics are immensely important, and the information (and therefore power) that they can make available to those who make use of them make them very attractive to world leaders, politicians, the military, industry and crime across the world. Many countries in AR02 place restrictions on the travel and communication of mathematicians and scientists working in related fields.
+
+
+ 

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-01-26T14:29:57+00:00
+
+====== Web Based ARG ======
+Created Sunday 26 January 2025
+
+LISP server side scripting serving dynamically generated pages. Each page creates a unique name-space and calls a common set of micropython code. This handles the display of the camera feed and any AR content on the LCD module. 
+
+

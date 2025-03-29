@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-04-09T17:20:40+01:00
+
+====== The Hole In The Wall ======
+Created Tuesday 09 April 2024
+
+The Hole In The Wall pub is a small, run-down and otherwise undistinguished establishment in the heart of the Docklands.  Despite its unprepossessing exterior, The Hole in the Wall has  achieved almost legendary status among techs, nerds and geeks as the birthplace of Conexus mathematics and the development of AR theroy. The proximity to AECL's original factory site also lends weight to the legend, and it is almost mythical in its place in the hearts of Jackers across the globe.
+    

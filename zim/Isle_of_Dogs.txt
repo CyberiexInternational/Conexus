@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-10-12T13:47:03+01:00
+
+====== Isle of Dogs ======
+Created Saturday 12 October 2024
+
+The Isle of Dogs (generally known as "The Island") played a central role in the information revolution of the second half of the 19th century. Both Babbage's company (Analytical Engines and Calculating Machines, or AECL) and British Calculators, the company set up by Brunel to produce machines dedicated to engineering, had their first offices and factories within a stones throw of each other in the docklands area of the Isle of Dogs.  With the added influence of the presence of the East India company headquarters and docks, and the global shipping industry of the whole dockland area, the Island became a central role in the early Information Revolution. Today it holds a semi-mythical place in the hearts and minds of even non-technical people, and many of the most famous "Sketcher / Jacker" bars, clubs and hangouts are located there. The infamous "Street" ( originally  Glengall Road) bisects the island, and is known around the globe as the place to go for the bleeding edge of legal and illegal products and services, counting among its many establishments [[The Hole in The Wall]] and [[The Hammer and The Spoon]].

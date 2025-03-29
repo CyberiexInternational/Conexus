@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-04-04T16:21:45+01:00
+
+====== Rational Artificial Intelligence ======
+Created Thursday 04 April 2024
+
+Although slightly misnamed, RAI's are most people's idea of an artificial intelligence - that is, an intelligence created by humans that communicates in a manner that (appears) to make sense to humans. 

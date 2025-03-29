@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-06-14T18:27:50+01:00
+
+====== Project Kraken ======
+Created Friday 14 June 2024
+
+Project  Kraken is a cross reality enterprise between the governments of France and the United Kingdom in AR00 (Great Britain in AR02). The goal of the project is to open a portal between realities large and stable enough to allow matter to cross between the two. It is located in an ultra secret lab located under the English Channel (in AR00, mistrust and disputed claims to various Gloaming related technologies resulted in the lab being located exactly halfway between the two partner countries). In AR00 the lab is accessed through an extension (obviously highly secret) of the Channel Tunnel - the building of the Dover-Calais bridge in AR02 obviated the need to build the tunnel, so the base was excavated and built entirely underwater by a specially created fleet of construction submersibles.    

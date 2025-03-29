@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-04-02T22:45:38+01:00
+
+====== Gehling Transformations ======
+Created Tuesday 02 April 2024
+
+Named after the mathematician Ernst Gehling, and the cornerstone of [[Conexus]] theory and mathematics,  Gehling Transformations are a series of higher order functions applied to the high-dimensional mathematical phase space known as rSpace They are used to study the connections between different points within that phase space. The results of Gehling Transformations can be applied to a wide range of disciplines to improve accuracy of existing procedures and techniques, and used in metaphysical research to make predictions (and possibly effect changes) in one or more realities. On a more philosophical level, Gehling transformations, and their effectivenes in describing and mapping points in different realities, support the view that different "realities" are in fact a result of different perceptions of rSpace rather than objective physical realities.

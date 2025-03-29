@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-10-12T13:50:47+01:00
+
+====== Logic Patterns ======
+Created Saturday 12 October 2024
+
+Logic Patterns, in AR02, are essentially the same as computer programs in our reality. The word is likely to have originally been used to describe programs loaded using the punch card system pioneered with Jacquard looms, hence the use of the word Pattern to describe the program itself. This also led to the use of the words "Sketch", "Sketcher" and "Jacker"  to refer to the AR02 equivalent of a program, programmer and hacker, respectively.
+
