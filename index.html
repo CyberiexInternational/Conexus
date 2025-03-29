@@ -1,0 +1,158 @@
+<DOCTYPE! html>
+
+<html>
+<head>
+    <title>
+        Conexus Strategic Overview 
+    </title>
+<style>
+
+/*Background - very faded out binary / random junk*/
+.bgDiv1
+{
+    position:absolute;
+    left:5px;
+    top:5px;
+    font-family: 'terminal','Courier New';
+    color:#ddffdd;
+    z-index:0;
+    width:480px;
+}
+
+/*First div - lorum ipsum text and junk*/
+.headerDiv
+{
+    position:absolute;
+    left:30px;
+    top:30px;
+    font-family: 'terminal','Courier New';
+    color:#333333;
+    border: 7px solid #660000;
+    border-radius: 8px;
+    padding: 5px;
+    width: 300px;
+}
+
+.genTxt
+{ 
+    font-family: 'terminal','Courier New';
+    color:#dddddd;
+    border: 7px solid #660000;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*Map, spookily enough*/
+.mapDiv
+{
+    position:absolute;
+    left:400px;
+    top:30px;
+    font-family: 'terminal','Courier New';
+    color:#999999;
+    border: 10px solid #006600;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/*GI Strength indicator bar chart holder*/
+.GI-StrengthHolder
+{
+    position:relative;
+    padding:10px;
+    left:1200px;
+    top:30px;
+    font-family: 'terminal','Courier New';
+    color:#dddddd;
+    border: 7px solid #660000;
+    border-radius: 8px;
+    padding: 5px;
+    width: 300px;
+    height:200px;
+    background:black;
+}
+
+
+
+
+/*individual GI strength indicator bars*/
+.GI-bar
+{
+    position:absolute; 
+    top:340px;
+    background-image: linear-gradient(green, yellow, red);
+    height:180px;
+    width:30px;
+    background:solid 0px #333333;
+}
+
+</style>
+
+<script language="javascript"> 
+
+function drawBar(barObj)
+{
+    barObj.style.top="10px";
+    leftVal=10 + i*40;
+    barObj.style.left=leftVal+"px";
+
+    //alert(barObj.style.left);
+}//function
+
+function drawGraph()
+{
+    for(i=0;i<=4;i++)
+    {
+        var barID="gi-bar" + i;
+        drawBar(document.getElementById(barID));
+    }//for
+}//function
+
+function displayGILink(containerObj)
+{
+    
+}//function
+
+</script>
+</head>
+
+<body bgcolor="#ffffff" onload="javascript:drawGraph();">
+    <div class="bgDiv1">
+01011100101000
+10100010101001001010100101010010010000011111010101010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+10100010101001001010100101010010010001010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+1010001010100100101010010101001001000001111101010011111010101010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+1010001010100100101010010101001001000001111101011010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+10100010101001001010100101010010010000011111010101010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+1010001010100100101010010101001001000001111101011010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+1010001010100100101010010101001001000001111101011010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+10100010101001001010100101010010010000011111010101010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+101010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+101000101010010010101001010100100100000111110101100010101001001010100101010010010000011111011010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+1010001010100100101010010101001001000001111101010101010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+101000101010010010101001010100100100000111010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+1010001010100100101010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+101000101010010010101001010100100100000111110101101001010100100100000111110101111010101010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+10100010101001001010100101010010010000011111010101010110101010<br>111010101010110101111101100101011010101010101010101010101010101
+
+    </div>
+<div class="headerDiv">Conexus Strategic Overview<br><br>Agent ID: 0329-AG014<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan libero vitae libero iaculis, ut auctor neque varius. Sed facilisis elit elit, et consequat ex consectetur placerat. Donec placerat faucibus erat, in venenatis ipsum ornare non. Sed suscipit risus quis nisl molestie luctus. In scelerisque, erat at dictum malesuada, dolor mauris faucibus justo, vitae congue tellus neque quis nisi. Aenean consectetur velit eget volutpat egestas. Fusce iaculis ipsum nec mi pretium, ac pellentesque dui commodo. Sed quis imperdiet velit, eu porttitor tellus. Vestibulum nec condimentum libero, id luctus ligula. Duis faucibus quam id vestibulum congue. Aliquam congue eros molestie rhoncus dapibus. Ut vel metus finibus, vulputate tellus eu, dictum mauris. Sed purus magna, aliquam non metus eget, vulputate lobortis orci. Nam interdum magna ex, id ullamcorper leo suscipit vitae. Integer vitae turpis magna. </div>
+<div class="mapDiv"><img src="IoDogs.png"/></div>
+
+<!--<svg class="GI-StrengthHolder">
+    <rect class="GI-bar" x="5" y="5" width="20" height="180" />
+</svg>-->
+  
+<div class="GI-StrengthHolder">
+   <!-- <div class="genTxt" style="position:relative;top:10;" onclick="javascript:drawGraph();">Draw Graph</div>-->
+    <div class="GI-bar" id="gi-bar0" style="height:180px;"></div>
+    <div class="GI-bar" id="gi-bar1" style="height:100px;"></div>
+    <div class="GI-bar" id="gi-bar2" style="height:120px;"></div>
+    <div class="GI-bar" id="gi-bar3" style="height:160px;"></div>
+    <div class="GI-bar" id="gi-bar4" style="height:140px;"></div>
+</div>
+
+</body>
+
+</html>
