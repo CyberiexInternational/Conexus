@@ -1,4 +1,4 @@
-;Simple (for now) web server - hopefully flexible enough for Conexus front end server
+;Simple (for now) web server - hopefully flexible enough for Conexus front end server - will need to modify some biuts for SBCL compliance..
 
 (defun http-char (c1 c2 &optional (default #\Space))
   (let ((code (parse-integer
