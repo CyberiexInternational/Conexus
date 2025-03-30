@@ -1,0 +1,2 @@
+(ql:quickload '("hunchentoot" "caveman2" "spinneret"
+                "djula" "easy-routes"))
