@@ -4,7 +4,7 @@
 
 ;Set up acceptor and start listening on 4242..
 (defvar *acceptor* (make-instance 'hunchentoot:easy-acceptor
-                                  :port 4242))
+                                  :port 4343))
 (hunchentoot:start *acceptor*)
 
 ;Set another directory to serve pages from...
@@ -19,12 +19,12 @@
 
 (in-package :webserver)
 
-(setf *dispatch-table*
-      (list #'dispatch-easy-handlers
-            #'default-dispatcher))
+;;(setf *dispatch-table*
+;;      (list #'dispatch-easy-handlers
+;;            #'default-dispatcher))
 
-(setf *show-lisp-errors-p* t
-      *show-lisp-backtraces-p* t)
+;;(setf *show-lisp-errors-p* t
+;;      *show-lisp-backtraces-p* t)
 
 (define-easy-handler (easy-demo :uri "/lisp/hello"
                                 :default-request-type :get)
@@ -33,7 +33,8 @@
     (:html
      (:head (:title "Hello, world!"))
      (:body
-      (:h1 "Hello, world!")
+      (:h1 "This should display the number nine.."
+	   (print (+ 4 5)))
       (:p "This is my Lisp web server, running on Hunchentoot,"
           " as described in "
           (:a :href
