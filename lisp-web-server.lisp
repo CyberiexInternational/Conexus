@@ -9,7 +9,7 @@
 
 ;Set another directory to serve pages from...
 (setf (hunchentoot:acceptor-document-root *acceptor*)
-      #p"/home/cryptao/Development/Conexus/www")
+      #p"/home/cryptao/Development/Conexus/three.js/building/")
 
 
 ;;Example of using Hunchentoot and cl-who to generate content
