@@ -1,0 +1,33 @@
+:acceptor-document-root *acceptor*)
+      #p"/home/cryptao/Development/Conexus/three.js/building/")
+
+
+;;Example of using Hunchentoot and cl-who to generate content
+
+(defpackage :webserver
+  (:use :common-lisp :hunchentoot :cl-who))
+
+(in-package :webserver)
+
+;;(setf *dispatch-table*
+;;      (list #'dispatch-easy-handlers
+;;            #'default-dispatcher))
+
+;;(setf *show-lisp-errors-p* t
+;;      *show-lisp-backtraces-p* t)
+
+(define-easy-handler (easy-demo :uri "/lisp/hello"
+                                :default-request-type :get)
+    ((state-variable :parameter-type 'string))
+  (with-html-output-to-string (*standard-output* nil :prologue t)
+    (:html
+     (:head (:title "Hello, world!"))
+     (:body
+      (:h1 "This should display the number nine.."
+	   (print (+ 4 5)))
+      (:p "This is my Lisp web server, running on Hunchentoot,"
+          " as described in "
+          (:a :href
+              "http://newartisans.com/blog_files/hunchentoot.primer.php"
+              "this blog entry")
+          " on Common Lisp and Hunchentoot.")))))

@@ -1,0 +1,23 @@
+{
+  "name": "three",
+  "version": "1.0.0",
+  "description": "three.js",
+  "homepage": "https://github.com/CyberiexInternational/Conexus#readme",
+  "bugs": {
+    "url": "https://github.com/CyberiexInternational/Conexus/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberiexInternational/Conexus.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "three.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "three.js": "^0.77.0"
+  }
+}
