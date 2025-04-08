@@ -25,11 +25,16 @@
  var cube = new THREE.Mesh ( geometry, material )
  scene.add( cube )
  
+ // basic cube
+ var geometry = new THREE.BoxGeometry( 100, 1, 100)
+ var material = new THREE.MeshStandardMaterial( { color: 0x00ff51, flatShading: true, metalness: 0, roughness: 1 })
+ var groundCube = new THREE.Mesh ( geometry, material )
+ scene.add(groundCube)
+ groundCube.position.set(0,-1,0)
+
  // wireframe cube
  var geometry = new THREE.BoxGeometry( 3, 3, 3)
- var material = new THREE.MeshBasicMaterial( {
-     color: "#dadada", wireframe: true, transparent: true
- })
+ var material = new THREE.MeshBasicMaterial({color: "#dadada", wireframe: true, transparent: true })
  var wireframeCube = new THREE.Mesh ( geometry, material )
  scene.add( wireframeCube )
  
@@ -45,13 +50,14 @@
  
  function animate() {
      requestAnimationFrame( animate )
-     cube.rotation.x += 0.04;
+     cube.rotation.x += 0.004;
      cube.rotation.y += 0.04;
      wireframeCube.rotation.x -= 0.01;
      wireframeCube.rotation.y -= 0.01;
      renderer.render( scene, camera )
  }
- animate()
+ //animate()
+ renderer.render( scene, camera )
 /*
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
