@@ -30,15 +30,20 @@ var healthCube, lastHealthPickup = 0;
      let width = window.innerWidth
      let height = window.innerHeight
      renderer.setSize( width, height )
-     camera.aspect = width / height
+     camera.mbadtk757174
+     aspect = width / height
      camera.updateProjectionMatrix()
  })
+
+//Doors and windows are defined by start co-ords, height, width and base height. Orientation and depth are assumed to be identical to the wall that the door / window is part of.
 
  // basic cube
  var geometry = new THREE.BoxGeometry( 1, 1, 1)
  var material = new THREE.MeshStandardMaterial( { color: 0xff0051, flatShading: true, metalness: 0, roughness: 1 })
  var cube = new THREE.Mesh ( geometry, material )
  scene.add( cube )
+
+ var geometry= new THREE.BoxGeometry(20,20,20)
  /*
  // basic cube
  var geometry = new THREE.BoxGeometry( 100, 1, 100)
@@ -59,7 +64,9 @@ var healthCube, lastHealthPickup = 0;
  var wireframeBigCube = new THREE.Mesh ( geometry, material )
  scene.add( wireframeBigCube )
 
- // ambient light
+ //The doors will be described by location (x,y,z) and height/depth, and consist of two blocks placed in a gap between two walls.
+ 
+// ambient light
  var ambientLight = new THREE.AmbientLight ( 0xffffff, 0.2)
  scene.add( ambientLight )
  
@@ -67,7 +74,8 @@ var healthCube, lastHealthPickup = 0;
  var pointLight = new THREE.PointLight( 0xffffff, 1 );
  pointLight.position.set( 25, 50, 25 );
  scene.add( pointLight );
- 
+
+ //THis function sets up the animation sequence and then calls itself recursively to consistently update the scene...
  function animate() {
      requestAnimationFrame( animate )
      cube.rotation.x += 0.4;
@@ -76,7 +84,6 @@ var healthCube, lastHealthPickup = 0;
      wireframeCube.rotation.y -= 1;
      renderer.render( scene, camera )
  }
-
- animate()
+ //animate()
  renderer.render( scene, camera )
 //init();

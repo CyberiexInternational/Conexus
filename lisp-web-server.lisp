@@ -4,13 +4,12 @@
 
 ;Set up acceptor and start listening on 4242..
 (defvar *acceptor* (make-instance 'hunchentoot:easy-acceptor
-                                  :port 4343))
+                                  :port 3737))
 (hunchentoot:start *acceptor*)
 
 ;Set another directory to serve pages from...
 (setf (hunchentoot:acceptor-document-root *acceptor*)
-      #p"/home/cryptao/Development/Conexus/three.js/building/")
-
+      #p"/home/cryptao/Development/Conexus/")
 
 ;;Example of using Hunchentoot and cl-who to generate content
 
