@@ -43,7 +43,7 @@ var healthCube, lastHealthPickup = 0;
  var cube = new THREE.Mesh ( geometry, material )
  scene.add( cube )
 
- var geometry= new THREE.BoxGeometry(20,20,20)
+ //var geometry= new THREE.BoxGeometry(8,8,8)
  /*
  // basic cube
  var geometry = new THREE.BoxGeometry( 100, 1, 100)
@@ -53,13 +53,13 @@ var healthCube, lastHealthPickup = 0;
  groundCube.position.set(0,-1,0)
 */
  // wireframe cube
- var geometry = new THREE.BoxGeometry( 3, 3, 3)
+ var geometry = new THREE.BoxGeometry( 2, 2, 2)
  var material = new THREE.MeshBasicMaterial({color: "#dadada", wireframe: true, transparent: true })
  var wireframeCube = new THREE.Mesh ( geometry, material )
  scene.add( wireframeCube )
  
  // wireframe cube
- var geometry = new THREE.BoxGeometry( 6, 6, 6)
+ var geometry = new THREE.BoxGeometry( 4, 4, 4)
  var material = new THREE.MeshBasicMaterial({color: "#dadada", wireframe: true, transparent: true })
  var wireframeBigCube = new THREE.Mesh ( geometry, material )
  scene.add( wireframeBigCube )
@@ -78,12 +78,14 @@ var healthCube, lastHealthPickup = 0;
  //THis function sets up the animation sequence and then calls itself recursively to consistently update the scene...
  function animate() {
      requestAnimationFrame( animate )
-     cube.rotation.x += 0.4;
-     cube.rotation.y += 0.4;
-     wireframeCube.rotation.x -= 1;
-     wireframeCube.rotation.y -= 1;
+     cube.rotation.x += 0.1;
+     cube.rotation.y += 0.1;
+     wireframeCube.rotation.x -= 0.07;
+     wireframeCube.rotation.y -= 0.07;
+     wireframeBigCube.rotation.x += 0.05;
+     wireframeBigCube.rotation.y += 0.05;
      renderer.render( scene, camera )
  }
- //animate()
+ animate()
  renderer.render( scene, camera )
 //init();
