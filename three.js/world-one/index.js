@@ -44,14 +44,14 @@ var healthCube, lastHealthPickup = 0;
  scene.add( cube )
 
  //var geometry= new THREE.BoxGeometry(8,8,8)
- /*
+ 
  // basic cube
  var geometry = new THREE.BoxGeometry( 100, 1, 100)
  var material = new THREE.MeshStandardMaterial( { color: 0x00ff51, flatShading: true, metalness: 0, roughness: 1 })
  var groundCube = new THREE.Mesh ( geometry, material )
  scene.add(groundCube)
  groundCube.position.set(0,-1,0)
-*/
+ 
  // wireframe cube
  var geometry = new THREE.BoxGeometry( 2, 2, 2)
  var material = new THREE.MeshBasicMaterial({color: "#dadada", wireframe: true, transparent: true })

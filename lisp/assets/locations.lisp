@@ -1,6 +1,6 @@
 
 
-(defparameter *node1* '((front-bar ("The front bar of the Hole In The Wall is generally crowded with young wannabe Sketchers and the people who prey on them - pimps and their charges, dealers etc. If you want some of the more specialised services on offer you'll need access to the Backroom. This is harder than it sounds. Invitation only - this is enforced by two or more of the Hole's Security - big guys with pumped muscles generally packing some sort of heat somewhere about their person."))
+(defparameter *node1* '((front-bar ("The front bar of the Hole In The Wall is generally crowded with young wannabe Sketchers and the people who prey on them - pimps and their charges, dealers etc. If you want some of the more specialised services on offer you'll need access to the Backroom. This is harder than it sounds. Invitation only - this is enforced by two or more of the Hole's Security - big guys with steroid pumped muscles generally packing some sort of heat somewhere about their person."))
   
 (backroom (The backroom of the Hole is where you go for anything beyond the normal.))
 
