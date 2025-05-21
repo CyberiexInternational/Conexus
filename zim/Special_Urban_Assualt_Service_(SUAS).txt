@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-04-23T13:21:50+01:00
+
+====== Special Urban Assualt Service (SUAS) ======
+Created Wednesday 23 April 2025
+
+The SUAS was formed in AR02 during the War, alongside the Special Air Aervice and Special Boat Service (SAS and SBS, respectively). They are generally more specialised than their brother organisations, and are generally deployed to conduct covert operations within cities and other built up areas. The SUAS are the most likely resource used by the Special Executive when precise military action  (assassinations, covert strikes etc) are deemed necessary tomprotect the interests of the Empire.
+
+Unlike other branches of the British military organisation, they field a large number of female operatives, often as spies or agent provocateurs, but also in their elite combat units, where a woman's generally smaller structure and more compact musculature make them ideal for some of the terrain that the SUAS  must operate in (frequently, tunnels, sewers, service ducts, inside buildings etc). It is this propensity for operating beneath (or sometimes above) the streets of a town or city which has earned them the nickname of "Sewer Rats" among other forces, a tag that they wear with pride.
+
+The unorthodox nature of their activities lead them to employ a wide range of unusual weaponry and equipment, including the short-ranged but deadly Coil-Sabot carbine, various close combat weapons (often poisoned), and wide range of combat and augmentation prosthesis.
+
+The most notable of these is the shoulder mounted Scorpion hands-free weapon platform. This takes the form of a folding powered arm, tipped with one of several different ranged weapons (Most frequently, the aforementioned CS Carbine). When not in use, the Scorpion folds down to lie flat alongside the backpack on the off-hand side of the operative. Designed for combat when the operative has one or two hands occupied (such as when climbing a wall or rope, traversing a vertical airshaft, crawling along a sewer tunnel etc), when the prosthesis is activated, it exends upwards and out above the operatives shoulder, giving a 360 degree field of fire. It then tracks whatever the user is looking at (and can also be "locked" onto a particular target, which it will then track with no further inpuit from the operater). Threats behind the Op can be targetted with the use of 360 degree camera feeds. If required, the operative can fire the weapon through a very basic neural impulse switch. The device is often used in addition to the more traditional weapons that the operative may be carrying, allowing each operative to lay down an impressive amount of firepower if the need arises.
+
+ 
