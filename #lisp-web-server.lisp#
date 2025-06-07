@@ -1,4 +1,4 @@
-;Load modules
+ ;Load modules
 (ql:quickload '("hunchentoot" "caveman2" "cl-who" "spinneret"
                 "djula" "easy-routes"))
 
@@ -12,6 +12,7 @@
       #p"/home/cryptao/Development/Conexus/")
 
 ;;Example of using Hunchentoot and cl-who to generate content
+
 (defpackage :webserver
   (:use :common-lisp :hunchentoot :cl-who))
 

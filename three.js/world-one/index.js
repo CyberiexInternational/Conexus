@@ -37,32 +37,36 @@ var healthCube, lastHealthPickup = 0;
 
 //Doors and windows are defined by start co-ords, height, width and base height. Orientation and depth are assumed to be identical to the wall that the door / window is part of.
 
- // basic cube
- var geometry = new THREE.BoxGeometry( 1, 1, 1)
+ // basic cube - left wall
+ var geometry = new THREE.BoxGeometry( 1, 3, 50)
  var material = new THREE.MeshStandardMaterial( { color: 0xff0051, flatShading: true, metalness: 0, roughness: 1 })
  var cube = new THREE.Mesh ( geometry, material )
+ groundCube.position.set(-2,1,0)
  scene.add( cube )
 
  //var geometry= new THREE.BoxGeometry(8,8,8)
  
- // basic cube
- var geometry = new THREE.BoxGeometry( 100, 1, 100)
+//Back wall
+
+
+ // ground
+var geometry = new THREE.BoxGeometry( 100, 1, 100)
  var material = new THREE.MeshStandardMaterial( { color: 0x00ff51, flatShading: true, metalness: 0, roughness: 1 })
  var groundCube = new THREE.Mesh ( geometry, material )
  scene.add(groundCube)
  groundCube.position.set(0,-1,0)
- 
+
  // wireframe cube
  var geometry = new THREE.BoxGeometry( 2, 2, 2)
  var material = new THREE.MeshBasicMaterial({color: "#dadada", wireframe: true, transparent: true })
  var wireframeCube = new THREE.Mesh ( geometry, material )
- scene.add( wireframeCube )
+ //scene.add( wireframeCube )
  
  // wireframe cube
  var geometry = new THREE.BoxGeometry( 4, 4, 4)
  var material = new THREE.MeshBasicMaterial({color: "#dadada", wireframe: true, transparent: true })
  var wireframeBigCube = new THREE.Mesh ( geometry, material )
- scene.add( wireframeBigCube )
+ //scene.add( wireframeBigCube )
 
  //The doors will be described by location (x,y,z) and height/depth, and consist of two blocks placed in a gap between two walls.
  
@@ -86,6 +90,6 @@ var healthCube, lastHealthPickup = 0;
      wireframeBigCube.rotation.y += 0.05;
      renderer.render( scene, camera )
  }
- animate()
+ //animate()
  renderer.render( scene, camera )
 //init();
