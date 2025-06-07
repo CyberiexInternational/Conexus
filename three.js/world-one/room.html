@@ -1,0 +1,74 @@
+<script>
+    var camera, scene, renderer, geometry, material, mesh, focus;
+
+init();
+animate();
+
+function init() {
+
+    scene = new THREE.Scene();
+
+    focus = new THREE.Vector3( 0, 0, 0 );
+
+    camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 1000 );
+    scene.add(camera);
+    camera.position.set(0,0,1);
+    camera.lookAt(focus);
+    camera.updateProjectionMatrix();
+    //camera.lookAt(scene.position)
+
+    controls = new THREE.TrackballControls( camera );
+    controls.rotateSpeed = 3.0;
+    //controls.zoomSpeed = 0;
+    //controls.panSpeed = 0.8;
+
+    controls.noZoom = true;
+    controls.noPan = true;
+
+    controls.staticMoving = true;
+    controls.dynamicDampingFactor = 0.3;
+
+    controls.keys = [ 65, 83, 68 ];
+
+    controls.addEventListener( 'change', render );
+
+    geometry = new THREE.BoxGeometry( 1000, 1000, 1000 );
+    for ( var i = 0; i < geometry.faces.length; i ++ ) {
+    geometry.faces[ i ].color.setHex( Math.random() * 0xffffff );
+    }
+    //material = new THREE.MeshBasicMaterial({ color: 0xffffff, vertexColors: THREE.FaceColors });
+    material = new THREE.MeshNormalMaterial();
+    material.side = THREE.DoubleSide;
+
+    mesh = new THREE.Mesh(geometry, material);
+    mesh.flipSided = true;
+    scene.add(mesh);
+
+    renderer = new THREE.WebGLRenderer({antialias: false});
+    renderer.setSize(window.innerWidth, window.innerHeight);
+
+    document.body.appendChild(renderer.domElement);
+    alert("Call Render function");
+    render();
+}
+
+function animate() {
+
+    requestAnimationFrame(animate);
+    controls.update();
+    //render();
+
+}
+
+function render() {
+    //mesh.rotation.x += 0.01;
+    //mesh.rotation.y += 0.02;
+
+    //var timer = - new Date().getTime() * 0.0002; 
+    //camera.position.x = 1000 * Math.cos( timer );
+    //camera.position.z = 1000 * Math.sin( timer );
+
+    renderer.render(scene, camera);
+
+}
+</script>

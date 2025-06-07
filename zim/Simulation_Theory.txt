@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-06-01T09:12:17+01:00
+
+====== Simulation Theory ======
+Created Sunday 01 June 2025
+

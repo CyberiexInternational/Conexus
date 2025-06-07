@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-05-26T19:51:25+01:00
+
+====== The rules of The Game ======
+Created Monday 26 May 2025
+
+Each agent has a number of statistics which roughly represent their physical and mental abilities. They may also have one or more special "skills" - either talents that they are born with, or skills tehy have developed to the point where they are notably stronger than the average person in that particular skill set. For example, an agent trained as a programmer may have average intelligence, but when handling computer related tasks, and particularly those involving programming (specifically in the languages and technologies in which they are strongest), they will have a far higher chance of succeeding than an average person, or even an agent with far more inate intelligence whio doesn't possess that specific skillset. 
